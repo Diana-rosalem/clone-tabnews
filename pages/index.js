@@ -1,4 +1,4 @@
 function Home() {
-  return <h1>Ideia do di</h1>;
+  return <h1>Minha ideia brilhante do dia 💡</h1>;
 }
 export default Home;
