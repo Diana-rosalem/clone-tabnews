@@ -1,23 +1,28 @@
 function Home() {
   return (
-    <div className="divMaster">
-      <h1>Minha ideia brilhante do dia 💡</h1>
-      <div className="divImg1">
-        <img
-          src="https://img1.picmix.com/output/stamp/normal/0/9/8/7/2377890_172c1.gif"
-          alt="Stickman"
-          width="120"
-          height="120"
-        />
-      </div>
-      <div className="textDes">
-        <h3>
-          Um site para que você compartilhe e discuta com outras pessoas as suas
-          mais loucas e brilhantes ideias que teve no dia.
-        </h3>
-      </div>
-      <style>
-        {`
+    <div>
+      <center>
+        <div>
+          <h1>Minha ideia brilhante do dia 💡</h1>
+        </div>
+      </center>
+      <div className="divMaster">
+        <div className="divImg1">
+          <img
+            src="https://img1.picmix.com/output/stamp/normal/0/9/8/7/2377890_172c1.gif"
+            alt="Stickman"
+            width="120"
+            height="120"
+          />
+        </div>
+        <div className="textDes">
+          <h3>
+            Um site para que você compartilhe e discuta com outras pessoas as
+            suas mais loucas e brilhantes ideias que teve no dia.
+          </h3>
+        </div>
+        <style>
+          {`
             .textDes {
               background-color: #d3d3d3;
               border-radius: 5px;
@@ -45,7 +50,8 @@ function Home() {
               margin-right: auto;
             }
           `}
-      </style>
+        </style>
+      </div>
     </div>
   );
 }
